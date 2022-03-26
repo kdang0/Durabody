@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: absolute;
+  width: 1035.3px;
+  height: 97.72px;
+  left: 181px;
+  top: 98px;
+
+}
+  
+  /* Style the links inside the navigation bar */
+
+    
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+  }
+   
+
+  
+
+  #contact{
+    
+    margin: 12px
+
+
+  }
+
+
+  #product{
+    
+    margin: 12px
+  }
+
+  
+
+  #about{
+    
+    margin:  12px;
+    
+
+
+
+  }
+
+  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black
+    
+  }
+ 
+ 
