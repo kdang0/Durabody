@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
+  <script src="slideshow.js"></script>
     <head>
     <link rel="stylesheet" href="./styles.css">
     <meta charset="utf-8">
     <title> HomePage Durabody </title> 
     </head>
     <body>
+      
 
         <div class="container">
           <div class="nav-wrapper">
@@ -18,9 +20,58 @@
           <div class="topnav">
              
               <a id="contact" href="#contact">Contact</a>
-              <a id="product" href="#product">Product</a>
+              <a id="product" href="#product">Products</a>
               <a id="about" href="#about">About Us</a>
           </div>
+          
+        
+
+        
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img class = "slide-img" src="/images/blue.jpg?1231" style="width:100%">
+                <div class="text">Blue</div>
+              </div>
+              <div class="mySlides fade"> 
+                <img class = "slide-img" src="/images/red.png?53214" style="width:100%">
+                <div class="text">Red</div>
+              </div>
+              <div class="mySlides fade">
+                <img class = "slide-img" src="/images/yellow.jpg?75436" style="width:100%">
+                <div class="text">Yellow</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)"><img src = "/images/prev.png"></a>
+              <a class="next" onclick="plusSlides(1)"><img src = "/images/next.png"></a>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+           
+
+          <div class="fixed-footer">
+            <div id="address">
+              Address              
+            </div >
+            <div id= "address-content"> 
+              9 Enterprise Lane Suite B, 
+Smithfield, RI 02917
+            </div>
+            <div id= "phone">
+              Phone
+            </div>
+            <div id = "phone-content">
+              401-256-9168
+            </div>
+            <div id = "email">
+              Email
+            </div> 
+            <div id = "email-content">
+              Marc.testa@rangeremergency.us
+            </div>      
+        </div>
 
     </html>    
         
