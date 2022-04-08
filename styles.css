@@ -5,12 +5,16 @@
 }
 
 
+#Contact-area{
+  margin:200px 500px;
+}
 
-
-
+#btnClickinq{
+  margin: 25px 0px;
+}
   
    
-  
+ 
 #maps{
   
   position:absolute;
