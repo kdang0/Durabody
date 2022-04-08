@@ -236,22 +236,23 @@
 .dot-container{
   position:absolute;
   top:500px;
-  left:687.04px;
+  left:578.15px;
 }
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    padding: 5px;
-    background-color: #999999;
+    padding-left: 50px;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   .active,
   .dot:hover {
-    background-color: #111111;
+    display: inline-block;
+    filter: invert(75%) sepia(22%) saturate(0%) hue-rotate(233deg) brightness(102%) contrast(90%);
+    transition: filter 0.6s ease-in;
   }
   /* Fading animation */
   .fade {
