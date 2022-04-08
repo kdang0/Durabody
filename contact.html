@@ -3,12 +3,13 @@
     <head>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <script src="./slideshow.js"></script>
+   
     <script src="./index.js"></script>
+   
    
     <script>src="./index.js"</script>
     <meta charset="utf-8">
-    <title> HomePage Durabody </title> 
+    <title> Contact Us </title> 
     </head>
     <body>
 
@@ -28,7 +29,54 @@
                <br>  <a id="President"> President- Marc Testa   </a> </br>
                 <br> <a id="Email-pres"> Email: marc.testa@rangeremergency.com </a></br> 
                 <br> <a id="add-ct"> Address: </a> </br>
-                 <button type="button" id="btnClickinq"> Send an inquiry </button>
+                 <button type="button" id="btnClickinq" onclick = "openform()"> Send an inquiry </button>
+                 
+                 <div  id="Contact-1" class="Contact-1">
+                 <form">
+
+                 <br> <label>
+                    Name
+                    <input type="name" name="name" class="name"/>
+        
+                  </label> </br>
+        
+                  <br>  <label>
+                    Position
+                  <input type="position" name="position" class="position"/> <br>
+        
+                <br>  </label>
+        
+                  <label>
+                    Company Name
+                    <input type="comp_name" name="comp_name" class="comp_name"/></br>
+        
+                  </label>
+        
+                <br><label>
+                    Number
+                    <input type="tel_num" name="tel_num" class="tel_num"/> </br>
+        
+                  </label>
+                 <br> <label>
+                    Email
+                    <input type="email" name="email" class="email"/></br>
+        
+                  </label>
+                  
+        
+                  
+        
+                 <br> <label>
+                    Message
+                    <textarea name ="message" class="message"></textarea></br>
+        
+                  </label>
+                  <div class="status"></div>
+                 <br> <button type="submit" class="submit_btn">Send</button></br>
+                </form>
+                 </div>
+
+
 
             </div>
 

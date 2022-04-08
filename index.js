@@ -1,3 +1,5 @@
+
+var vis="hidden";
 function initMap() {
     // The location of Uluru
     const uluru = { lat: 41.88644692839364, lng: -71.53915781541838};
@@ -13,7 +15,30 @@ function initMap() {
     });
   }
 
-  function open_form(){
+  function openform(){
+    
+    
+    var x = document.getElementById("Contact-1");
+    console.log(vis);
+    if(vis==="hidden"){
+    document.querySelectorAll(".Contact-1").forEach(x => x.style.visibility = "visible");
+    vis="visible";
+    }
 
+    else{
+      document.querySelectorAll(".Contact-1").forEach(x => x.style.visibility = "hidden");
+      vis="hidden";
+
+    }
+   
+  }
+
+  function btnClick(){
+    var btn=document.getElementsByClassName("btnClickinq")
+    btn.onclick = function(event) {
+      console.log(event);
+      console.log("lund");
+      openform();
+    }
   }
   
