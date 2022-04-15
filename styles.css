@@ -227,6 +227,23 @@
     border-color: #251D1D;
     
   }
+  .additional-info{
+    position: relative;
+    margin:100px 0px;
+    top: 30px;
+  }
+  #pic-dura{
+    position: relative;
+    top: 20px;
+    margin: 100px;
+  }
+  .about-information{
+    position:absolute;
+    top: 250px;
+    margin: 10px 12%;
+    width:63%;
+    align-items: center;
+  }
 
   #form-cont{
     margin: 20px 40px;
